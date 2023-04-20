@@ -1,0 +1,39 @@
+.Transaction {
+    width: 100%;
+    border-width: 4;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0 0 10px whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Transaction-inputs-column {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Transaction-outputs-column {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Transaction-center-column {
+    text-align: center;
+    vertical-align: middle;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.TxSide {
+    border-color: whitesmoke;
+    border-width: 2;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(245, 245, 245, 0.096);
+}
