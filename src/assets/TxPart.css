@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    width: min-content;
+}
+
+.TxPart {
+    background-color: rgba(128, 128, 128, 0.253);
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    margin: 5px auto;
+    color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.TxPart.Miner {
+    border-color: brown;
+    background-color: rgba(165, 42, 42, 0.295);
+    box-shadow: 0 0 10px brown;
+}
+
+.TxPart.Highlighted {
+    background-color: rgba(127, 255, 212, 0.247);
+    border-color: aquamarine;
+    box-shadow: 0 0 10px aquamarine;
+}
+
+.TxPart.SC {
+    background-color: rgba(128, 0, 128, 0.247);
+    border-color: purple;
+    box-shadow: 0 0 10px purple;
+}
